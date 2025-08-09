@@ -1,0 +1,35 @@
+.top{
+    background:linear-gradient( rgb(211, 233, 227),rgb(180, 207, 174) ,rgb(243, 217, 217));
+ 
+}
+#head{
+    background-color: rgb(212, 34, 93);
+}
+.row div{
+    width: 300px;
+    height: 200px;
+    transition-duration: 3s;
+    transition-property: top;
+    
+}
+h1{
+    letter-spacing: 2px;
+    position: relative;
+}
+.row div a{
+    color: rgb(229, 233, 234);
+}
+.row div:hover{
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+}
+.a1:hover{
+    background-color: azure;
+}
+h1::first-letter{
+    font-size: 80px;
+    color: gold;
+    letter-spacing: 5px;
+    position: relative;
+}
